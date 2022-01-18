@@ -1,0 +1,13 @@
+doctype html 
+html 
+    head 
+        link(href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="/style.css")
+        title Login
+    body 
+        form#loginForm(method="POST" action="/login/confirm")
+            h2 Welcome to Our Dance Academy
+            input(type="text" class="myInp" name="password" placeholder="Enter your password")
+            input(type="email" class="myInp" name="email" placeholder="Enter your email id")
+            button(class="btn" id="login")
+                | Login

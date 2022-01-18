@@ -1,0 +1,8 @@
+form#contactForm(method="POST" action="/signup/confirm" enctype="multipart/form-data")
+    input(type="text" class="myInp" name="name" placeholder="Enter your name")
+    input(type="number" class="myInp" name="phone" placeholder="Enter your phone no.")
+    input(type="email" class="myInp" name="email" placeholder="Enter your email id")
+    input(type="file" class="myInp" name="img" required)
+    input(type="text" class="myInp" name="password" placeholder="Enter your password")
+    button(class="btn" id="sbmt")
+        | Submit

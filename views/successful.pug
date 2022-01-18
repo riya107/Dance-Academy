@@ -1,0 +1,10 @@
+extends ./base.pug
+
+block content 
+    div.confirm
+        h2 We have successfully got your data as:
+        img(src="/uploads/"+img alt="loading image")
+        p Name : #{name}
+        p Email : #{email}
+        p Phone : #{phone}
+        p ********************
